@@ -9,6 +9,13 @@ configure_flags(
 harden
 
 build do
+  run './utils/replace-vars.sh'
+  run 'autopoint'
+  run 'libtoolize --automake'
+  run 'aclocal -I m4'
+  run 'autoheader'
+  run 'automake --foreign --add-missing'
+  run 'autoconf'
   configure
   make
   install
