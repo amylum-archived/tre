@@ -1,7 +1,7 @@
 tre
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/tre.svg)](https://circleci.com/gh/amylum/tre)
+[![Build Status](https://img.shields.io/circleci/project/amylum/tre/master.svg)](https://circleci.com/gh/amylum/tre)
 [![GitHub release](https://img.shields.io/github/release/amylum/tre.svg)](https://github.com/amylum/tre/releases)
 [![BSD Licensed](http://img.shields.io/badge/license-BSD-green.svg)](https://tldrlegal.com/license/bsd-2-clause-license-(freebsd))
 
