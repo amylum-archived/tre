@@ -1,7 +1,7 @@
 item do
   expected do
     url_xpath
-    url 'http://laurikari.net/tre/download/'
+    url 'https://laurikari.net/tre/download/'
     xpath '//*[@id="post-5"]/div[2]/table/tbody/tr[1]/td[2]/a/tt'
     regex /^tre-([\d.]+).tar.bz2$/
   end
